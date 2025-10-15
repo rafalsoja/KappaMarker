@@ -1,0 +1,21 @@
+{
+    "name": "KappaMarker",
+    "version": "1.0.0",
+    "main": "src/mod.js",
+    "license": "MIT",
+    "author": "Cichaj",
+    "sptVersion": "3.10.x",
+    "loadBefore": [],
+    "loadAfter": [],
+    "incompatibilities": [],
+    "isBundleMod": false,
+    "scripts": {
+        "setup": "npm install",
+        "build": "tsc src/mod.ts"
+    },
+    "devDependencies": {
+        "typescript": "^5.4.0",
+        "@types/node": "^20.11.0",
+        "tsyringe": "^4.8.0"
+    }
+}
