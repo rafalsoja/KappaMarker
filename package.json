@@ -1,10 +1,10 @@
 {
     "name": "KappaMarker",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "main": "src/mod.js",
     "license": "MIT",
     "author": "Cichaj",
-    "sptVersion": "3.10.x",
+    "sptVersion": ">=3.10.0",
     "loadBefore": [],
     "loadAfter": [],
     "incompatibilities": [],
@@ -17,8 +17,5 @@
         "@types/node": "^20.11.0",
         "tsyringe": "^4.8.0",
         "typescript": "^5.4.0"
-    },
-    "dependencies": {
-        "prettier": "^3.6.2"
     }
 }

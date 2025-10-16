@@ -89,11 +89,6 @@ export class Quests {
     this.logger.info(
       `[KappaMarker] Updated ${totalUpdated} descriptions across ${Object.keys(updatedPerLang).length} languages.`
     );
-    for (const lang in updatedPerLang) {
-      this.logger.info(
-        `[KappaMarker] → ${lang}: ${updatedPerLang[lang]} quests updated`
-      );
-    }
   }
   public markKappaNames(kappaQuestIds: string[]): void {
     const locales = this.tables.locales.global;
@@ -118,10 +113,5 @@ export class Quests {
     this.logger.info(
       `[KappaMarker] Updated ${totalUpdated} quest names across ${Object.keys(updatedPerLang).length} languages.`
     );
-    for (const lang in updatedPerLang) {
-      this.logger.info(
-        `[KappaMarker] → ${lang}: ${updatedPerLang[lang]} names updated`
-      );
-    }
   }
 }
