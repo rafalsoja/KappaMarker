@@ -14,8 +14,11 @@
         "build": "tsc src/mod.ts"
     },
     "devDependencies": {
-        "typescript": "^5.4.0",
         "@types/node": "^20.11.0",
-        "tsyringe": "^4.8.0"
+        "tsyringe": "^4.8.0",
+        "typescript": "^5.4.0"
+    },
+    "dependencies": {
+        "prettier": "^3.6.2"
     }
 }
