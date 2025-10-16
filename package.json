@@ -5,7 +5,7 @@
     "license": "MIT",
     "author": "Cichaj",
     "sptVersion": ">=3.10.0",
-    "loadBefore": [],
+    "loadBefore": ["mattdokn-startcollectorearly"],
     "loadAfter": [],
     "incompatibilities": [],
     "isBundleMod": false,
