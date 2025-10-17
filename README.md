@@ -8,7 +8,8 @@ A SPT-AKI mod that marks quests required for Kappa container/Collector quest. It
 
 ## Installation
 
-1. **Download the latest release**  
+**Step 1: Download the latest release**  
    📦 [Releases](https://github.com/rafalsoja/KappaMarker/releases)
 
-2. ![Installation](https://i.imgur.com/34vXXDj.gif)
+**Step 2:**
+![Installation](https://i.imgur.com/34vXXDj.gif)
